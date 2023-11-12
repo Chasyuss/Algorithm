@@ -24,7 +24,7 @@ int main()
     }
     for(int i=0;i<3;i++)
     {
-        printf("%d ", arr[i]); 
+        printf("%d ", arr[i]); //여기에 공백 안넣은거 ㄹㅈㄷ 
     }
     return 0; 
 
