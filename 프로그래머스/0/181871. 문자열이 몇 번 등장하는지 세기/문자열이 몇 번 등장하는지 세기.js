@@ -1,10 +1,11 @@
 function solution(myString, pat) {
-    let answer = 0;
+    let count = 0;
+
     for (let i = 0; i <= myString.length - pat.length; i++) {
-        if (myString.slice(i, i + pat.length) === pat) {
-            answer++;
+        if (myString.substring(i, i + pat.length) === pat) {
+            count++;
         }
     }
 
-    return answer;
+    return count;
 }
