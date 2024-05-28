@@ -1,9 +1,4 @@
 function solution(my_strings, parts) {
-    let answer = "";
-    for(let i =0; i<my_strings.length; i++)
-        {
-            const [a,b] = parts[i];
-            answer+= my_strings[i].slice(a,b+1);
-        }
-    return answer;
+    var answer = '';
+    return my_strings.map((e,i) => e.substring(parts[i][0], parts[i][1]+1)).join("");
 }
