@@ -1,5 +1,5 @@
 function solution(x) {
-  var answer = true;
+  let answer = true;
 
   let arr = String(x).split("");
   let sum = 0;
