@@ -7,7 +7,7 @@ function solution(num) {
     } else {
       num = num * 3 + 1;
     }
-    answer += 1;
+    answer +=1; 
   }
   if (answer >= 500) {
     return -1;
